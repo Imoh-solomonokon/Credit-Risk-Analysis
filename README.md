@@ -1,3 +1,7 @@
+## 📸 App Preview
+
+![Credit Risk Prediction App](images/app_screenshot.png)
+
 # 💳 Credit Risk Prediction App
 
 A machine learning application that predicts the likelihood of a borrower defaulting on a loan, built using a real-world Kaggle dataset. The project covers the full data science workflow — from raw data exploration to a deployable prediction app.
