@@ -3,8 +3,8 @@ import pandas as pd # for writing the input data in a dataframe format for the m
 import joblib # for loading the pikl file of the trained model
 
 # Load the trained model and encoder into dictionaries for use in the app
-model = joblib.load("extra_trees_credit_model.pkl")
-encoders = {col : joblib.load(f"{col}_label_encoder.pkl") for col in ["Sex","Housing", "Saving accounts", "Checking account"]}
+model = joblib.load("models/extra_trees_credit_model.pkl")
+encoders = {col : joblib.load(f"models/{col}_label_encoder.pkl") for col in ["Sex","Housing", "Saving accounts", "Checking account"]}
 
 # give the app a title and description
 st.title("Credit Risk Prediction App")
